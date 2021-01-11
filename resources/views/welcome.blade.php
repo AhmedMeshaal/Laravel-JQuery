@@ -3,22 +3,20 @@
 <link rel="stylesheet" href="/css/main.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href='https://css.gg/menu-round.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <link href='https://css.gg/dribbble.css' rel='stylesheet'>
+    <link href='https://css.gg/list-tree.css' rel='stylesheet'>
+    <link href='https://css.gg/toolbox.css' rel='stylesheet'>
+    <link href='https://css.gg/browse.css' rel='stylesheet'>
 
     <title>LARAVEL JQUERY</title>
 </head>
 
 <body>
-<script>
-    $('.nav-toggle').click(function(e) {
 
-        e.preventDefault();
-        $("html").toggleClass("openNav");
-        $(".nav-toggle").toggleClass("active");
-    });
-
-</script>
 <div class="primary-nav">
 
     <button href="#"  class="hamburger open-panel nav-toggle">
@@ -33,27 +31,16 @@
 
             <ul class="menu-dropdown">
 
-                <li><a href="#">Dashboard</a><span class="icon"><i class="fa fa-dashboard"></i></span></li>
-
                 <li class="menu-hasdropdown">
-                    <a href="#">Settings</a><span class="icon"><i class="fa fa-gear"></i></span>
 
-                    <label title="toggle menu" for="settings">
-                        <span class="downarrow"><i class="fa fa-caret-down"></i></span>
-                    </label>
-                    <input type="checkbox" class="sub-menu-checkbox" id="settings" />
+                    <a href="#">Dashboard</a><span class="icon"><i class="gg-list-tree"></i></span>
 
-                    <ul class="sub-menu-dropdown">
-                        <li><a href="">Profile</a></li>
-                        <li><a href="">Security</a></li>
-                        <li><a href="">Account</a></li>
-                    </ul>
-                </li>
+                <li><a href="#">Settings</a><span class="icon"><i class="gg-toolbox"></i></span></li>
 
-                <li><a href="#">Favourites</a><span class="icon"><i class="fa fa-heart"></i></span></li>
+                <li><a href="#">Browse</a><span class="icon"><i class="gg-browse"></i></span></li>
 
-                <li><a href="#">Messages</a><span class="icon"><i class="fa fa-envelope"></i></span></li>
-
+                <li><a href="#">Messages</a><span class="icon"><i class="gg-dribbble"></i></span></li>
+                <li><ion-icon name="file-tray-full-outline"></ion-icon></li>
             </ul>
 
         </div>
@@ -63,6 +50,8 @@
 </div>
 
 <div class="new-wrapper">
+
+
 
     <div id="main">
 
@@ -89,6 +78,18 @@
     </div>
 
 </div>
+
+<script>
+    $('.nav-toggle').click(function(e) {
+
+        e.preventDefault();
+        $("html").toggleClass("openNav");
+        $(".nav-toggle").toggleClass("active");
+
+    });
+
+
+</script>
 </body>
 
 </html>
