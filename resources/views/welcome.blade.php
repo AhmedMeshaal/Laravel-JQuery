@@ -81,7 +81,7 @@
             <p>I'm sure this could be done with vanilla javascript, but that is not my strong suit. So here we are. You might be thinking, "Why not just use JQuery for all of the functionality?" Well, you can! Fork it and go nuts! Maybe drop me a line if you do.</p>
 
             <p class="small"><strong>This is small text</strong>. Lorem Ipsum is simply dummy text from the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                it to make a type specimen book. It has survived not only five centuries, but als the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
         </div>
