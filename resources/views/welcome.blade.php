@@ -57,7 +57,7 @@
 
         <div id="main-contents">
 
-            <h1>Multi-level Side Navigation</h1>
+            <h1>IT IS WELCOME PAGE</h1>
 
             <p class="intro"><strong>This is a multi-level side navigation pattern with hover and push</strong>. Hovering over the menu will reveal its lables and clicking the hamburger icon pins the menu open.</p>
 
